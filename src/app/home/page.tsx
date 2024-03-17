@@ -98,7 +98,7 @@ export default function Component() {
   );
 }
 
-function BarChartIcon(props) {
+function BarChartIcon(props :any) {
   return (
     <svg
       {...props}
@@ -119,7 +119,7 @@ function BarChartIcon(props) {
   );
 }
 
-function FootprintsIcon(props) {
+function FootprintsIcon(props :any) {
   return (
     <svg
       {...props}
@@ -141,7 +141,7 @@ function FootprintsIcon(props) {
   );
 }
 
-function HeartIcon(props) {
+function HeartIcon(props :any) {
   return (
     <svg
       {...props}
@@ -160,7 +160,7 @@ function HeartIcon(props) {
   );
 }
 
-function HomeIcon(props) {
+function HomeIcon(props :any) {
   return (
     <svg
       {...props}
@@ -180,7 +180,7 @@ function HomeIcon(props) {
   );
 }
 
-function MenuIcon(props) {
+function MenuIcon(props :any) {
   return (
     <svg
       {...props}
@@ -201,7 +201,7 @@ function MenuIcon(props) {
   );
 }
 
-function PersonStandingIcon(props) {
+function PersonStandingIcon(props :any) {
   return (
     <svg
       {...props}
@@ -223,7 +223,7 @@ function PersonStandingIcon(props) {
   );
 }
 
-function UserIcon(props) {
+function UserIcon(props :any) {
   return (
     <svg
       {...props}

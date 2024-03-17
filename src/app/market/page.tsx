@@ -55,7 +55,7 @@ export default function Component() {
   );
 }
 
-function HomeIcon(props) {
+function HomeIcon(props:any) {
   return (
     <svg
       {...props}
@@ -74,7 +74,7 @@ function HomeIcon(props) {
     </svg>
   );
 }
-function BarChartIcon(props) {
+function BarChartIcon(props:any) {
   return (
     <svg
       {...props}
@@ -94,7 +94,7 @@ function BarChartIcon(props) {
     </svg>
   );
 }
-function SearchIcon(props) {
+function SearchIcon(props:any) {
   return (
     <svg
       {...props}
@@ -114,7 +114,7 @@ function SearchIcon(props) {
   );
 }
 
-function ShoppingCartIcon(props) {
+function ShoppingCartIcon(props:any) {
   return (
     <svg
       {...props}
@@ -135,7 +135,7 @@ function ShoppingCartIcon(props) {
   );
 }
 
-function UserIcon(props) {
+function UserIcon(props:any) {
   return (
     <svg
       {...props}

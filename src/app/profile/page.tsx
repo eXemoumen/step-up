@@ -96,7 +96,7 @@ export default function Profile() {
   );
 }
 
-function AwardIcon(props) {
+function AwardIcon(props: any) {
   return (
     <svg
       {...props}
@@ -116,7 +116,7 @@ function AwardIcon(props) {
   );
 }
 
-function CalendarIcon(props) {
+function CalendarIcon(props: any) {
   return (
     <svg
       {...props}
@@ -138,7 +138,7 @@ function CalendarIcon(props) {
   );
 }
 
-function HomeIcon(props) {
+function HomeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -158,7 +158,7 @@ function HomeIcon(props) {
   );
 }
 
-function LogOutIcon(props) {
+function LogOutIcon(props: any) {
   return (
     <svg
       {...props}
@@ -179,7 +179,7 @@ function LogOutIcon(props) {
   );
 }
 
-function MapPinIcon(props) {
+function MapPinIcon(props: any) {
   return (
     <svg
       {...props}
@@ -199,7 +199,7 @@ function MapPinIcon(props) {
   );
 }
 
-function MenuIcon(props) {
+function MenuIcon(props: any) {
   return (
     <svg
       {...props}
@@ -220,7 +220,7 @@ function MenuIcon(props) {
   );
 }
 
-function ShoppingBagIcon(props) {
+function ShoppingBagIcon(props:any) {
   return (
     <svg
       {...props}
@@ -241,7 +241,7 @@ function ShoppingBagIcon(props) {
   );
 }
 
-function TrophyIcon(props) {
+function TrophyIcon(props:any) {
   return (
     <svg
       {...props}
@@ -265,7 +265,7 @@ function TrophyIcon(props) {
   );
 }
 
-function UserIcon(props) {
+function UserIcon(props:any) {
   return (
     <svg
       {...props}
@@ -284,7 +284,7 @@ function UserIcon(props) {
     </svg>
   );
 }
-function BarChartIcon(props) {
+function BarChartIcon(props:any) {
   return (
     <svg
       {...props}
