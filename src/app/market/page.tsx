@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Component() {
   return (
-    <div className="bg-white p-4 max-w-md mx-auto rounded-lg shadow-lg h-screen">
+    <div className=" p-4 max-w-md mx-auto rounded-lg shadow-lg h-screen">
       <div className="text-center font-bold text-lg mb-2">Magazin</div>
       <div className="text-center text-sm mb-4">Credit = 2000 P</div>
       <div className="space-y-3">
