@@ -10,7 +10,7 @@ import Image from "next/image";
 import Pic from "./user-pfp.jpg";
 export default function Profile() {
   return (
-    <div className="space-y-4 ">
+    <div>
       <header className="lg:pt-4 lg:pb-8">
         <div className="container mx-auto px-4 flex items-center space-x-4 lg:space-x-6">
           <Link className="flex items-center space-x-2" href={"/home"}>
@@ -39,10 +39,6 @@ export default function Profile() {
             <span className="text-lg font-semibold">Profile</span>
           </Link>
           <div className="flex-1 flex justify-end lg:justify-center">
-            <Button className="lg:hidden" size="sm" variant="outline">
-              <MenuIcon className="h-4 w-4 -translate-x-1" />
-              Menu
-            </Button>
             <Button className="hidden lg:flex" size="sm" variant="outline">
               <LogOutIcon className="h-4 w-4 -translate-x-1" />
               Log out
@@ -220,7 +216,7 @@ function MenuIcon(props: any) {
   );
 }
 
-function ShoppingBagIcon(props:any) {
+function ShoppingBagIcon(props: any) {
   return (
     <svg
       {...props}
@@ -241,7 +237,7 @@ function ShoppingBagIcon(props:any) {
   );
 }
 
-function TrophyIcon(props:any) {
+function TrophyIcon(props: any) {
   return (
     <svg
       {...props}
@@ -265,7 +261,7 @@ function TrophyIcon(props:any) {
   );
 }
 
-function UserIcon(props:any) {
+function UserIcon(props: any) {
   return (
     <svg
       {...props}
@@ -284,7 +280,7 @@ function UserIcon(props:any) {
     </svg>
   );
 }
-function BarChartIcon(props:any) {
+function BarChartIcon(props: any) {
   return (
     <svg
       {...props}
