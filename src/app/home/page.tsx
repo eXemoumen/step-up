@@ -21,8 +21,8 @@ export default function Component() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="w-full max-w-4xl bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="w-full max-w-4xl rounded-lg shadow-md overflow-hidden">
         <div className="flex items-center justify-center gap-7">
           {" "}
           <Link href="/home">
@@ -98,7 +98,7 @@ export default function Component() {
   );
 }
 
-function BarChartIcon(props :any) {
+function BarChartIcon(props: any) {
   return (
     <svg
       {...props}
@@ -119,7 +119,7 @@ function BarChartIcon(props :any) {
   );
 }
 
-function FootprintsIcon(props :any) {
+function FootprintsIcon(props: any) {
   return (
     <svg
       {...props}
@@ -141,7 +141,7 @@ function FootprintsIcon(props :any) {
   );
 }
 
-function HeartIcon(props :any) {
+function HeartIcon(props: any) {
   return (
     <svg
       {...props}
@@ -160,7 +160,7 @@ function HeartIcon(props :any) {
   );
 }
 
-function HomeIcon(props :any) {
+function HomeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -180,7 +180,7 @@ function HomeIcon(props :any) {
   );
 }
 
-function MenuIcon(props :any) {
+function MenuIcon(props: any) {
   return (
     <svg
       {...props}
@@ -201,7 +201,7 @@ function MenuIcon(props :any) {
   );
 }
 
-function PersonStandingIcon(props :any) {
+function PersonStandingIcon(props: any) {
   return (
     <svg
       {...props}
@@ -223,7 +223,7 @@ function PersonStandingIcon(props :any) {
   );
 }
 
-function UserIcon(props :any) {
+function UserIcon(props: any) {
   return (
     <svg
       {...props}
