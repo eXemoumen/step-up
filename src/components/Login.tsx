@@ -14,8 +14,7 @@ export function Login() {
   return (
     <div className="flex h-screen w-full flex-col items-center justify-center bg-black">
       <div className="mb-8">
-       
-        <UserIcon className="h-16 w-16 text-[#FFA500]" />
+        <UserIcon  className="h-16 w-16 text-[#FFA500]" />
       </div>
       <form className="w-full h-auto max-w-xs space-y-4 ">
         <div>
@@ -50,10 +49,7 @@ export function Login() {
   );
 }
 
-type params = {
-  text: string;
-};
-function UserIcon(props: params) {
+function UserIcon(props: any) {
   return (
     <svg
       {...props}
