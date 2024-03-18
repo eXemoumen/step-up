@@ -14,7 +14,7 @@ export function Login() {
   return (
     <div className="flex h-screen w-full flex-col items-center justify-center bg-black">
       <div className="mb-8">
-        <UserIcon  className="h-16 w-16 text-[#FFA500]" />
+        <UserIcon  />
       </div>
       <form className="w-full h-auto max-w-xs space-y-4 ">
         <div>
@@ -62,6 +62,7 @@ function UserIcon(props: any) {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="h-16 w-16 text-[#FFA500]"
     >
       <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
       <circle cx="12" cy="7" r="4" />
